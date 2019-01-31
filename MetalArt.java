@@ -137,26 +137,27 @@ public class MetalArt
 	  
 	  System.out.println("The " + pentName + " surface area calculations are: ");
 	  
-
+      // The lines below prints the surface area of the first pyramid
 	  System.out.print("     Surface area of the first pyramid: ");
 	  System.out.printf("%,2.2f", firstSA); 
 	  System.out.println(" square inches");
 	  
+	  // The lines below prints the surface area of the second pyramid
 	  System.out.print("     Surface area of the second pyramid: "); 
 	  System.out.printf("%,2.2f", secondSA);
 	  System.out.println(" square inches");
 	  
-	  
+	  // The lines below prints the surface area of the rectangular prism
 	  System.out.print("     Surface area of the rectangular prism: ");
 	  System.out.printf("%,2.2f", prismSA);
 	  System.out.println(" square inches");
 	  
-	  
+	  // The lines below prints the total surface area 
 	  System.out.print("     Total Surface area: ");
 	  System.out.printf("%,2.2f", totalSA);
 	  System.out.println(" square inches");
 	  
-	  
+	  // The lines below prints the total material cost
 	  System.out.print("The total cost of the material to build " + pentName + " is $");
 	  System.out.printf("%,2.2f", totalCost);
 	 
